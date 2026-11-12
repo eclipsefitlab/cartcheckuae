@@ -10,5 +10,8 @@ const PRODUCTS = [
   { name: "Beauty EDP 100ml", brand: "Calvin Klein", category: "Fragrance", tags: "perfume designer", url: "https://s.noon.com/TEFFfLXxaCw" },
   { name: "Square Sunglasses", brand: "Guess", category: "Fashion", tags: "sunglasses eyewear accessories", url: "https://s.noon.com/9qkUD5td_YY" },
   { name: "On-The-Go 600 sneakers", brand: "Skechers", category: "Shoes", tags: "sneakers trainers comfort", url: "https://s.noon.com/lUtwgwl6S-o" },
-  { name: "Air Force 1 07 sneakers", brand: "Nike", category: "Shoes", tags: "sneakers trainers classic white", url: "https://s.noon.com/txw4ffd3gVE" }
+  { name: "Air Force 1 07 sneakers", brand: "Nike", category: "Shoes", tags: "sneakers trainers classic white", url: "https://s.noon.com/txw4ffd3gVE" },
+  { name: "12L/Day Dehumidifier", brand: "Pro Breeze", category: "Home", tags: "dehumidifier damp condensation laundry", url: "https://s.noon.com/pa14RM9yfjc" },
+  { name: "30L a Day Smart Dehumidifier with Wifi", brand: "Smart", category: "Home", tags: "dehumidifier wifi app damp condensation", url: "https://s.noon.com/D5PEabNoIW8" },
+  { name: "Windproof Butane Torch Lighter", brand: "Refillable", category: "Home", tags: "torch lighter candles cooking camping", url: "https://s.noon.com/hRSJrtgnN6Y" }
 ];

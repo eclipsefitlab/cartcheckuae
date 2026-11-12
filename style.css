@@ -53,3 +53,4 @@ details p{margin:8px 0 0;color:var(--muted)}
 footer{border-top:1px solid var(--line);margin-top:44px;padding:20px 0 40px;color:var(--muted);font-size:.82rem}
 footer p{margin:6px 0}
 footer ul{display:flex;flex-wrap:wrap;gap:6px 16px;list-style:none;padding:0;margin:0 0 8px}
+.own{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;display:grid;gap:14px}.own .go{padding:10px 16px;margin:0}.go.alt{background:transparent;border:2px solid var(--fg);color:var(--fg)}

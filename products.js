@@ -11,7 +11,11 @@ const PRODUCTS = [
   { name: "Square Sunglasses", brand: "Guess", category: "Fashion", tags: "sunglasses eyewear accessories", url: "https://s.noon.com/9qkUD5td_YY" },
   { name: "On-The-Go 600 sneakers", brand: "Skechers", category: "Shoes", tags: "sneakers trainers comfort", url: "https://s.noon.com/lUtwgwl6S-o" },
   { name: "Air Force 1 07 sneakers", brand: "Nike", category: "Shoes", tags: "sneakers trainers classic white", url: "https://s.noon.com/txw4ffd3gVE" },
-  { name: "12L/Day Dehumidifier", brand: "Pro Breeze", category: "Home", tags: "dehumidifier damp condensation laundry", url: "https://s.noon.com/pa14RM9yfjc" },
-  { name: "30L a Day Smart Dehumidifier with Wifi", brand: "Smart", category: "Home", tags: "dehumidifier wifi app damp condensation", url: "https://s.noon.com/D5PEabNoIW8" },
-  { name: "Windproof Butane Torch Lighter", brand: "Refillable", category: "Home", tags: "torch lighter candles cooking camping", url: "https://s.noon.com/hRSJrtgnN6Y" }
+  { name: "Pop-Up Camping Tent, 4 Person", brand: "DEXO", category: "Camping", tags: "tent winter camping desert family", url: "https://s.noon.com/eNvFOw5GIIA" },
+  { name: "Camping Tent 200x200x145cm", brand: "Arabest", category: "Camping", tags: "tent winter camping desert family", url: "https://s.noon.com/x9mZzGhrlhw" },
+  { name: "Pop-Up Tent, 2-3 Person", brand: "TOMSHOO", category: "Camping", tags: "tent winter camping hiking", url: "https://s.noon.com/MwZySeDvL_4" },
+  { name: "Lightweight Feather Sleeping Bag", brand: "KingCamp", category: "Camping", tags: "sleeping bag winter warm camping", url: "https://s.noon.com/UiwptgthbvU" },
+  { name: "Wearable Camping Blanket", brand: "GEERTOP", category: "Camping", tags: "blanket quilt winter warm camping", url: "https://s.noon.com/yLuOt9iu_H0" },
+  { name: "5800W Mini Camping Gas Stove", brand: "BSQ", category: "Camping", tags: "stove cooking gas camping", url: "https://s.noon.com/KeVpEYQlj_I" },
+  { name: "Camping Stove with Butane Cartridges", brand: "GO2CAMPS", category: "Camping", tags: "stove cooking butane camping", url: "https://s.noon.com/fFMjXz59_3k" }
 ];

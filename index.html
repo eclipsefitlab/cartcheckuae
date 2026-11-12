@@ -1,119 +1,57 @@
 <!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cart Check UAE | UAE deals + noon cashback code</title>
-<meta name="description" content="Check your cart before you pay. UAE deals on perfumes, sneakers and more, plus a 10% cashback code for noon (up to AED 75). Affiliate links.">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap">
-<style>
-:root{--bg:#fffdf5;--card:#ffffff;--fg:#151515;--muted:#5c5a50;--line:#e6e1cc;--accent:#ffd600;--accent-fg:#151515;--red:#d71f33}
-@media (prefers-color-scheme:dark){:root{--bg:#121110;--card:#1c1b19;--fg:#f4f1e6;--muted:#a9a592;--line:#33312b;--accent:#ffd600;--accent-fg:#151515;--red:#ff5a6b}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.5 Poppins,system-ui,sans-serif;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
-.wrap{max-width:980px;margin:0 auto}
-header{padding:28px 0 8px}
-.brand{font-weight:700;font-size:1.1rem;letter-spacing:.02em}
-.brand span{background:var(--accent);color:var(--accent-fg);padding:2px 8px;border-radius:6px;margin-right:6px}
-h1{font-size:clamp(1.7rem,5vw,2.6rem);line-height:1.15;margin:14px 0 6px}
-.sub{color:var(--muted);margin:0 0 18px;max-width:60ch}
-.code{display:flex;flex-wrap:wrap;gap:12px;align-items:center;background:var(--accent);color:var(--accent-fg);border-radius:16px;padding:16px 18px;margin:8px 0 20px}
-.code b{font-size:1.9rem;letter-spacing:.06em;background:#151515;color:#ffd600;border-radius:10px;padding:2px 14px}
-.code p{margin:0;flex:1 1 220px;font-size:.92rem}
-button{font:inherit;cursor:pointer}
-.copy{border:2px solid #151515;background:transparent;color:#151515;border-radius:10px;padding:8px 14px;font-weight:600}
-.search{display:flex;gap:10px;margin:10px 0}
-.search input{flex:1;min-width:0;border:2px solid var(--line);background:var(--card);color:var(--fg);border-radius:12px;padding:12px 14px;font:inherit}
-.search input:focus{outline:3px solid var(--accent);border-color:var(--fg)}
-.chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 18px}
-.chip{border:1.5px solid var(--line);background:var(--card);color:var(--fg);border-radius:999px;padding:6px 14px;font-size:.9rem}
-.chip[aria-pressed=true]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;padding:0;margin:0;list-style:none}
-.item{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;display:flex;flex-direction:column;gap:6px;min-width:0}
-.item small{color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-size:.7rem}
-.item h2{font-size:1.02rem;margin:0}
-.price{font-weight:700;font-size:1.25rem}
-.price s{color:var(--muted);font-weight:400;font-size:.9rem;margin-left:6px}
-.price em{display:block;font-style:normal;font-weight:400;font-size:.72rem;color:var(--muted)}
-.go{margin-top:auto;display:inline-block;text-align:center;background:var(--accent);color:var(--accent-fg);text-decoration:none;font-weight:700;border-radius:10px;padding:10px 12px}
-.empty{color:var(--muted);padding:24px 0}
-.backup{margin:30px 0 10px;border-top:1px solid var(--line);padding-top:20px}
-.backup h3{margin:0 0 6px}
-.backup .row{display:flex;flex-wrap:wrap;gap:8px}
-.how{margin:22px 0;padding-left:20px;color:var(--fg)}
-footer{border-top:1px solid var(--line);margin-top:30px;padding:18px 0 34px;color:var(--muted);font-size:.82rem}
-footer p{margin:6px 0}
-a{color:inherit}
-</style>
-</head>
-<body>
-<div class="wrap">
-<header>
-  <div class="brand"><span>Cart Check</span>UAE</div>
-  <h1>Check your cart before you pay.</h1>
-  <p class="sub">UAE deals I find and double-check, plus a cashback code you can use on noon. Search below.</p>
-</header>
-
-<section class="code" aria-label="Cashback code">
-  <b id="main">TSQ10</b>
-  <p>Use at checkout on noon for 10% cashback, up to AED 75. Valid until 31 Dec 2026. Terms apply on noon.</p>
-  <button class="copy" id="copyMain">Copy code</button>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cart Check UAE | UAE deals and noon cashback code</title><meta name="description" content="Check your cart before you pay. UAE deals on perfumes, sneakers and more, plus a 10% cashback code for noon (up to AED 75). Affiliate links.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"><link rel="stylesheet" href="style.css"></head><body><div class="wrap"><nav aria-label="Main"><a class="logo" href="index.html"><span>Cart Check</span>UAE</a><ul><li><a href="index.html#deals">Deals</a></li><li><a href="index.html#how">How it works</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul></nav><main>
+<section class="hero">
+  <div class="kicker">UAE deals · noon cashback</div>
+  <h1>Check your cart <mark>before you pay.</mark></h1>
+  <p class="lead">I look for good prices on perfumes, sneakers and more in the UAE, then share them here with a cashback code you can use on noon.</p>
+  <div class="code" aria-label="Cashback code">
+    <b>TSQ10</b>
+    <p>Enter this code at noon checkout for <strong>10% cashback, up to AED 75</strong>. Valid until 31 Dec 2026.</p>
+    <button class="copy" id="copyMain">Copy code</button>
+  </div>
+  <p class="fine">Cashback is paid by noon after delivery and is subject to noon's terms. Eligibility can depend on the products in your cart.</p>
 </section>
-
-<div class="search"><input id="q" type="search" placeholder="Search perfumes, sneakers, brands..." aria-label="Search deals" autocomplete="off"></div>
-<div class="chips" id="chips" role="group" aria-label="Categories"></div>
-<ul class="grid" id="grid"></ul>
-<p class="empty" id="empty" hidden>Nothing found. Try another word, or follow @cart.check.uae for new deals.</p>
-
-<ol class="how">
-  <li>Open a deal and add it to your noon cart.</li>
-  <li>Enter the code at checkout.</li>
-  <li>Cashback is added after your order is delivered, subject to noon's terms.</li>
-</ol>
-
-<section class="backup">
-  <h3>Backup codes</h3>
-  <p style="margin:0 0 10px;color:var(--muted);font-size:.9rem">If one code doesn't work for your cart, try another.</p>
+<section id="deals">
+  <h2 class="sec">Today's deals</h2>
+  <p class="sub2">Search or filter, then open the deal on noon.</p>
+  <div class="search"><input id="q" type="search" placeholder="Search perfumes, sneakers, brands..." aria-label="Search deals" autocomplete="off"></div>
+  <div class="chips" id="chips" role="group" aria-label="Categories"></div>
+  <ul class="grid" id="grid"></ul>
+  <p class="empty" id="empty" hidden>Nothing found. Try another word, or follow @cart.check.uae on TikTok for new deals.</p>
+</section>
+<section id="how">
+  <h2 class="sec">How it works</h2>
+  <ol class="steps">
+    <li><strong>Pick a deal</strong><br>Open it on noon and add it to your cart.</li>
+    <li><strong>Enter the code</strong><br>Paste TSQ10 at checkout.</li>
+    <li><strong>Get cashback</strong><br>noon adds it after your order is delivered.</li>
+  </ol>
+  <h3 style="margin:26px 0 6px">Backup codes</h3>
+  <p class="fine">If one code doesn't work for your cart, try another.</p>
   <div class="row" id="backups"></div>
 </section>
-
-<footer>
-  <p><b>Affiliate disclosure:</b> Some links on this site are affiliate links. If you buy through them I may earn a small commission at no extra cost to you.</p>
-  <p>Cart Check UAE is an independent site. It is not owned by, endorsed by or officially connected with noon. Prices change often; the price on noon at checkout is what counts. Prices shown are as checked on the date listed.</p>
-  <p>Follow <a href="https://www.tiktok.com/@cart.check.uae" rel="noopener">@cart.check.uae</a> on TikTok and the Cart Check UAE page on Facebook.</p>
-</footer>
-</div>
-<script src="products.js"></script>
-<script>
+<section id="faq">
+  <h2 class="sec">Questions</h2>
+  <details><summary>Does it cost me anything?</summary><p>No. Prices are the same as on noon. If you buy through my links I may earn a small commission from noon.</p></details>
+  <details><summary>Are you part of noon?</summary><p>No. Cart Check UAE is independent. I'm an affiliate, which means I share links and may earn a commission.</p></details>
+  <details><summary>Why is the price different from what I see?</summary><p>Prices and stock change quickly. I check them when I post, but the price shown on noon at checkout is the one that counts.</p></details>
+  <details><summary>Where can I see new deals?</summary><p>Follow <a href="https://www.tiktok.com/@cart.check.uae" rel="noopener">@cart.check.uae</a> on TikTok and the Cart Check UAE page on Facebook.</p></details>
+</section>
+</main><footer><ul><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="privacy.html">Privacy policy</a></li><li><a href="disclosure.html">Affiliate disclosure</a></li></ul><p><b>Affiliate disclosure:</b> Some links are affiliate links. If you buy through them I may earn a small commission at no extra cost to you. <a href="disclosure.html">Read more</a>.</p><p>Cart Check UAE is an independent website. It is not owned by, endorsed by or officially connected with noon. Prices change often, so the price on noon at checkout is what counts.</p><p>&copy; 2026 Cart Check UAE</p></footer></div><script src="products.js"></script><script>
 const BACKUPS=["UNA10","TCNG","NORDIC","KKKNH"];
 const grid=document.getElementById('grid'),empty=document.getElementById('empty'),q=document.getElementById('q'),chips=document.getElementById('chips');
-let cat="All";
-const cats=["All",...new Set(PRODUCTS.map(p=>p.category))];
-function copy(text,btn){
-  const done=()=>{const o=btn.textContent;btn.textContent="Copied";setTimeout(()=>btn.textContent=o,1400)};
-  try{navigator.clipboard.writeText(text).then(done,()=>{})}catch(e){}
-}
-cats.forEach(c=>{const b=document.createElement('button');b.className='chip';b.textContent=c;b.setAttribute('aria-pressed',c===cat);
-  b.onclick=()=>{cat=c;[...chips.children].forEach(x=>x.setAttribute('aria-pressed',x===b));render()};chips.appendChild(b)});
-function render(){
-  const t=q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
-  const list=PRODUCTS.filter(p=>(cat==="All"||p.category===cat)&&t.every(w=>(p.name+" "+p.brand+" "+p.category+" "+(p.tags||"")).toLowerCase().includes(w)));
-  grid.innerHTML="";
-  list.forEach(p=>{
-    const li=document.createElement('li');li.className='item';
-    const price=p.price?`<div class="price">AED ${p.price}${p.was?`<s>AED ${p.was}</s>`:""}<em>checked ${PRICE_DATE}, may change</em></div>`:`<div class="price" style="font-size:.9rem;font-weight:400;color:var(--muted)">Check today's price on noon</div>`;
-    li.innerHTML=`<small>${p.category}</small><h2></h2>${price}<a class="go" target="_blank" rel="sponsored noopener">View on noon</a>`;
-    li.querySelector('h2').textContent=p.brand+" "+p.name;
-    li.querySelector('a').href=p.url;
-    grid.appendChild(li);
-  });
-  empty.hidden=list.length>0;
-}
+let cat="All";const cats=["All",...new Set(PRODUCTS.map(p=>p.category))];
+function copy(t,b){const o=b.textContent;try{navigator.clipboard.writeText(t).then(()=>{b.textContent="Copied";setTimeout(()=>b.textContent=o,1400)},()=>{})}catch(e){}}
+cats.forEach(c=>{const b=document.createElement('button');b.className='chip';b.textContent=c;b.setAttribute('aria-pressed',c===cat);b.onclick=()=>{cat=c;[...chips.children].forEach(x=>x.setAttribute('aria-pressed',x===b));render()};chips.appendChild(b)});
+function render(){const t=q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+const list=PRODUCTS.filter(p=>(cat==="All"||p.category===cat)&&t.every(w=>(p.name+" "+p.brand+" "+p.category+" "+(p.tags||"")).toLowerCase().includes(w)));
+grid.innerHTML="";list.forEach(p=>{const li=document.createElement('li');li.className='item';
+const pr=p.price?`<div class="price">AED ${p.price}${p.was?`<s>AED ${p.was}</s>`:""}<em>checked ${PRICE_DATE}, may change</em></div>`:`<div class="nop">Check today's price on noon</div>`;
+li.innerHTML=`<small>${p.category}</small><h3></h3>${pr}<a class="go" target="_blank" rel="sponsored noopener">View on noon</a>`;
+li.querySelector('h3').textContent=p.brand+" "+p.name;li.querySelector('a').href=p.url;grid.appendChild(li)});empty.hidden=list.length>0}
 q.addEventListener('input',render);
 document.getElementById('copyMain').onclick=e=>copy("TSQ10",e.target);
-const bk=document.getElementById('backups');
-BACKUPS.forEach(c=>{const b=document.createElement('button');b.className='chip';b.textContent=c+" · copy";b.onclick=()=>copy(c,b);bk.appendChild(b)});
-render();
-</script>
-</body>
-</html>
+const bk=document.getElementById('backups');BACKUPS.forEach(c=>{const b=document.createElement('button');b.className='chip';b.textContent=c+" · copy";b.onclick=()=>copy(c,b);bk.appendChild(b)});
+render();</script></body></html>

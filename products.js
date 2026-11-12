@@ -1,6 +1,3 @@
-// Edit this list to add or change products. Each line is one product.
-// Fields: name, brand, category (Fragrance / Shoes / Fashion / Beauty / Gadgets), tags, url (your noon affiliate short link),
-// price (optional number in AED), was (optional old price). Only add a price if you checked it; it shows "checked" with PRICE_DATE.
 const PRICE_DATE = "12 Nov 2026";
 const PRODUCTS = [
   { name: "Cool Water Eau de Toilette 125ml", brand: "Davidoff", category: "Fragrance", tags: "perfume men fresh edt", url: "https://s.noon.com/eIaRnUDrd7s", price: 69, was: 299 },

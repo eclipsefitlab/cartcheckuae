@@ -1,3 +1,6 @@
+// Edit this list to add or change products. Each line is one product.
+// Fields: name, brand, category (Fragrance / Shoes / Fashion / Beauty / Gadgets), tags, url (your noon affiliate short link),
+// price (optional number in AED), was (optional old price). Only add a price if you checked it; it shows "checked" with PRICE_DATE.
 const PRICE_DATE = "12 Nov 2026";
 const PRODUCTS = [
   { name: "Cool Water Eau de Toilette 125ml", brand: "Davidoff", category: "Fragrance", tags: "perfume men fresh edt", url: "https://s.noon.com/eIaRnUDrd7s", price: 69, was: 299 },
@@ -11,6 +14,9 @@ const PRODUCTS = [
   { name: "Square Sunglasses", brand: "Guess", category: "Fashion", tags: "sunglasses eyewear accessories", url: "https://s.noon.com/9qkUD5td_YY" },
   { name: "On-The-Go 600 sneakers", brand: "Skechers", category: "Shoes", tags: "sneakers trainers comfort", url: "https://s.noon.com/lUtwgwl6S-o" },
   { name: "Air Force 1 07 sneakers", brand: "Nike", category: "Shoes", tags: "sneakers trainers classic white", url: "https://s.noon.com/txw4ffd3gVE" },
+  { name: "12L/Day Dehumidifier", brand: "Pro Breeze", category: "Home", tags: "dehumidifier damp condensation laundry", url: "https://s.noon.com/pa14RM9yfjc" },
+  { name: "Dehumidifier with Wifi, 30L a Day", brand: "Smart", category: "Home", tags: "dehumidifier wifi app damp condensation", url: "https://s.noon.com/D5PEabNoIW8" },
+  { name: "Torch Lighter, windproof and refillable", brand: "Butane", category: "Home", tags: "torch lighter candles cooking camping", url: "https://s.noon.com/hRSJrtgnN6Y" },
   { name: "Pop-Up Camping Tent, 4 Person", brand: "DEXO", category: "Camping", tags: "tent winter camping desert family", url: "https://s.noon.com/eNvFOw5GIIA" },
   { name: "Camping Tent 200x200x145cm", brand: "Arabest", category: "Camping", tags: "tent winter camping desert family", url: "https://s.noon.com/x9mZzGhrlhw" },
   { name: "Pop-Up Tent, 2-3 Person", brand: "TOMSHOO", category: "Camping", tags: "tent winter camping hiking", url: "https://s.noon.com/MwZySeDvL_4" },

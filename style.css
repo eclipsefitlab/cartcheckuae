@@ -7,6 +7,7 @@ html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 Poppins,system-ui,sans-serif}
 .wrap{max-width:1072px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 a{color:inherit}
+
 button{font:inherit;cursor:pointer}
 /* nav */
 nav{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;justify-content:space-between;padding:14px 0}
@@ -89,3 +90,24 @@ footer{margin-top:50px;background:#0c1f33;color:#c9d3de;padding:24px 22px 40px;f
 footer a{color:#fff}
 footer p{margin:6px 0}
 footer ul{display:flex;flex-wrap:wrap;gap:6px 16px;list-style:none;padding:0;margin:0 0 10px;font-size:.9rem}
+/* === Dark charcoal + gold palette (Nov 2026) === */
+:root,:root:not([data-theme="light"]){--bg:#17181c;--card:#222328;--fg:#ffffff;--muted:#bcbfc7;--line:#363840;--yellow:#ffc928;--ink:#17181c;--night:#101114;--purple:#ffc928;--purple-bg:#222328;
+--c-frag:#3a2a30;--c-frag-i:#ff9fbf;--c-shoes:#25303d;--c-shoes-i:#9bcaff;--c-fashion:#3a3220;--c-fashion-i:#ffd36b;--c-home:#223833;--c-home-i:#7fe0cf;--c-camp:#2a3523;--c-camp-i:#aee08a;--c-other:#2e3036;--c-other-i:#e4e4e4;color-scheme:dark}
+.band{background:linear-gradient(180deg,#101114 0%,#1b1c21 65%,#2b2415 100%)}
+.band .sky{display:none}
+.hero{padding-bottom:56px}
+.pagehead{padding-bottom:34px}
+@media (max-width:640px){.hero{padding-bottom:40px}}
+footer{background:#101114;border-top:3px solid var(--yellow)}
+.kicker{background:rgba(255,201,40,.12);border-color:rgba(255,201,40,.45);color:var(--yellow)}
+h1 mark{background:var(--yellow);color:var(--ink)}
+.cat[aria-pressed=true]{border-color:var(--yellow);box-shadow:0 0 0 1px var(--yellow)}
+.item:hover{box-shadow:0 12px 26px rgba(0,0,0,.45);border-color:var(--yellow)}
+.go:hover{filter:brightness(1.08)}
+.own{border-left-color:var(--yellow)}
+.own .tag{background:var(--yellow);color:var(--ink)}
+.btn{background:var(--yellow);color:var(--ink)}
+.btn.alt{background:transparent;border:2px solid var(--yellow);color:var(--yellow)}
+.chip{border-color:var(--line)}
+.chip:hover{border-color:var(--yellow)}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--yellow);outline-offset:2px}
